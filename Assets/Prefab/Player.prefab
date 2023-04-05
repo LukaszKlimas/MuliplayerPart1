@@ -212,6 +212,7 @@ GameObject:
   - component: {fileID: 6359866759758280637}
   - component: {fileID: 6219011017501662977}
   - component: {fileID: 9164464250406216194}
+  - component: {fileID: -5859659223027181915}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -425,3 +426,19 @@ MonoBehaviour:
   _networkObjectCache: {fileID: 0}
   objToSpawn: {fileID: 6087865045630004043, guid: f118077f552aa344485631439c167cf6, type: 3}
   spawnedObject: {fileID: 0}
+--- !u!114 &-5859659223027181915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8665319537276846057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a22f595a0e2294aa18393a10eabf15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _componentIndexCache: 255
+  _addedNetworkObject: {fileID: 8681962233512356123}
+  _networkObjectCache: {fileID: 0}
+  health: 10
